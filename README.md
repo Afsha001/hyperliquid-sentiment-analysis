@@ -1,9 +1,11 @@
-# Hyperliquid Sentiment Analysis
-### How the Bitcoin Fear and Greed Index Shapes On-Chain Trading Behavior
+<h1 align="center">Hyperliquid Sentiment Analysis</h1>
+<h3 align="center">How the Bitcoin Fear and Greed Index Shapes On-Chain Trading Behavior</h3>
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-green)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue"/>
+  <img src="https://img.shields.io/badge/Pandas-2.0+-green"/>
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen"/>
+</p>
 
 ---
 
@@ -44,21 +46,6 @@ not included. Download it directly from Hyperliquid's data export.
 
 ## Results
 
-### Fear and Greed Index — Historical Overview (2018 to 2025)
-![Fear and Greed EDA](charts/fear_greed_eda.png)
-
-The index averaged 46.98 across 2,644 days. Fear was the most common sentiment
-(781 days), while Extreme Greed was the rarest (326 days).
-
----
-
-### Trading Activity Overview
-![Trader EDA](charts/trader_eda_overview.png)
-
-HYPE dominated trading volume across all sentiment periods with 40,725 trades,
-followed by BTC (21,149) and ETH (7,662).
-
----
 
 ### Win Rate by Sentiment
 ![Win Rate](charts/win_rate_by_sentiment.png)
@@ -186,5 +173,31 @@ The sentiment label matters more than the exact score value.
 | SciPy | Mann-Whitney U test, Spearman correlation |
 
 ---
+---
 
-## Project Structure
+## How to Run
+
+```bash
+git clone https://github.com/yourusername/hyperliquid-sentiment-analysis
+cd hyperliquid-sentiment-analysis
+pip install -r requirements.txt
+```
+
+Place `historical_data.csv` in the `data/` folder, then open
+`fear_v_s_greed.ipynb` in Jupyter or Google Colab and run all cells.
+
+---
+
+## Limitations
+
+1. The dataset covers 19 wallet addresses. Patterns reflect aggregate behavior
+   and may not generalize to all Hyperliquid traders.
+
+2. The trading data spans May 2023 to May 2025. Only the overlapping period
+   with the Fear and Greed Index is used in the merged analysis.
+
+3. Most rows have a Closed PnL of 0.0, representing open-position events.
+   All PnL analysis is restricted to trades with non-zero closed PnL.
+
+4. Statistical significance does not imply causation. Sentiment may correlate
+   with confounding variables such as market volatility or coin-specific events.
