@@ -38,7 +38,6 @@ from February 2018 to May 2025.
 | Bitcoin Fear and Greed Index | 2,644 days | Feb 2018 to May 2025 | alternative.me |
 | Hyperliquid Trade History | 125,830 trades | May 2023 to May 2025 | Hyperliquid Exchange |
 
-The Fear and Greed Index dataset is included in the `data/` folder.
 The Hyperliquid trade dataset exceeds GitHub file size limits (45.3MB) and is
 not included. Download it directly from Hyperliquid's data export.
 
