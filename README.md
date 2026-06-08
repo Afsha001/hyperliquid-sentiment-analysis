@@ -204,11 +204,15 @@ Place `historical_data.csv` in the `data/` folder, then open
 
 ---
 
+<div align="center">
+
 ## Author
 
 Made with curiosity and code by **Afsha Anjum**
 
 Feel free to fork, star, or open an issue if you have suggestions or questions.
 
-[![GitHub](https://img.shields.io/badge/GitHub-AfshаAnjum-black?logo=github)](https://github.com/Afsha001)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/)](https://www.linkedin.com/in/afsha-anjum-aaa728350/).
+[![GitHub](https://img.shields.io/badge/GitHub-AfshaAnjum-black?logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/afsha-anjum-aaa728350/)
+
+</div>
